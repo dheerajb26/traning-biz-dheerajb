@@ -1,0 +1,163 @@
+    1  2024-09-27 06:44:20 sudo vi /etc/ssh/sshd_config
+    2  2024-09-27 06:44:20 sudo -i
+    3  2024-09-27 06:44:20 exit
+    4  2024-09-27 06:44:20 sudo su - ec2-user
+    5  2024-09-27 06:44:20 sudo vi /etc/ssh/sshd_config
+    6  2024-09-27 06:44:20 exit
+    7  2024-09-27 06:44:20 ssh-keygen -t rsa
+    8  2024-09-27 06:44:20 ls ~/.ssh
+    9  2024-09-27 06:44:20 cat ~/.ssh/id_rsa.pub
+   10  2024-09-27 06:44:20 ls
+   11  2024-09-27 06:44:20 ls -la
+   12  2024-09-27 06:44:20 cd .ssh
+   13  2024-09-27 06:44:20 ls
+   14  2024-09-27 06:44:20 rm id_rsa
+   15  2024-09-27 06:44:20 rm id_rsa.pub
+   16  2024-09-27 06:44:20 mkdir .ssh
+   17  2024-09-27 06:44:20 cd .ssh
+   18  2024-09-27 06:44:20 ls
+   19  2024-09-27 06:44:20 touch authorized_keys
+   20  2024-09-27 06:44:20 ls
+   21  2024-09-27 06:44:20 vi authorized_keys
+   22  2024-09-27 06:44:20 cat authorized_keys
+   23  2024-09-27 06:44:20 exit
+   24  2024-09-27 06:44:20 ls
+   25  2024-09-27 06:44:20 ls -la
+   26  2024-09-27 06:44:20 rmdir .ssh
+   27  2024-09-27 06:44:20 rm -r .ssh
+   28  2024-09-27 06:44:20 ls -la
+   29  2024-09-27 06:44:20 mkdir .ssh
+   30  2024-09-27 06:44:20 cd .ssh
+   31  2024-09-27 06:44:20 touch authorized_keys
+   32  2024-09-27 06:44:20 ls
+   33  2024-09-27 06:44:20 sudo vi authorized_keys 
+   34  2024-09-27 06:44:20 vi authorized_keys 
+   35  2024-09-27 06:44:20 cat authorized_keys 
+   36  2024-09-27 06:44:20 exit
+   37  2024-09-27 06:44:20 mkdir assignment
+   38  2024-09-27 06:44:20 cd -assignment
+   39  2024-09-27 06:44:20 cd assignment
+   40  2024-09-27 06:44:20 vi code.sh
+   41  2024-09-27 06:44:20 cat code.sh
+   42  2024-09-27 06:44:20 vi file1.txt
+   43  2024-09-27 06:44:20 touch file2.txt
+   44  2024-09-27 06:44:20 #!/bin/bash
+   45  2024-09-27 06:44:20 # Check if the correct number of arguments is provided
+   46  2024-09-27 06:44:20 if [ "$#" -ne 2 ]; then     echo "Usage: $0 file1.txt file2.txt";     exit 1; fi
+   47  2024-09-27 06:44:20 cd assignment
+   48  2024-09-27 06:44:20 chmod +x Code.sh
+   49  2024-09-27 06:44:20 chmod +x code.sh
+   50  2024-09-27 06:44:20 ./code.sh file1.txt file2.txt
+   51  2024-09-27 06:44:20 cat code.sh
+   52  2024-09-27 06:44:20 vi code.sh
+   53  2024-09-27 06:44:20 chmod +x code.sh
+   54  2024-09-27 06:44:20 ./code.sh file1.txt file2.txt
+   55  2024-09-27 06:44:20 cat file2.txt
+   56  2024-09-27 06:44:20 vi file2.txt
+   57  2024-09-27 06:44:20 vi code.sh
+   58  2024-09-27 06:44:20 chmod +x code.sh
+   59  2024-09-27 06:44:20 vi file2.txt
+   60  2024-09-27 06:44:20 ./code.sh file1.txt file2.txt
+   61  2024-09-27 06:44:20 vi file2.txt
+   62  2024-09-27 06:44:20 cat file2.txt
+   63  2024-09-27 06:44:20 cd assignment
+   64  2024-09-27 06:44:20 cat code.sh
+   65  2024-09-27 06:44:20 history
+   66  2024-09-27 06:44:20 sudo vi /etc/ssh/sshd_config
+   67  2024-09-27 06:44:20 sudo vi authorized_keys 
+   68  2024-09-27 06:44:20 pipe
+   69  2024-09-27 06:44:20 chmod 755 file
+   70  2024-09-27 06:44:20 chmod 755 code.sh
+   71  2024-09-27 06:44:20 exit
+   72  2024-09-27 06:44:20 rxit
+   73  2024-09-27 06:44:20 exit
+   74  2024-09-27 06:44:20 Curl -OL https://download.oracle.com/otn_software/db-express/oracle-database-xe-18c-1.0-1.x86_64.rpm
+   75  2024-09-27 06:44:20 sudo -i
+   76  2024-09-27 06:44:20 sudo su root
+   77  2024-09-27 06:44:20 su -i
+   78  2024-09-27 06:44:20 sudo su -i
+   79  2024-09-27 06:44:20 exit
+   80  2024-09-27 06:44:20 sudo su root
+   81  2024-09-27 06:44:20 sudo -i
+   82  2024-09-27 06:44:20 ls
+   83  2024-09-27 06:44:20 $ java -version
+   84  2024-09-27 06:44:20 java -version
+   85  2024-09-27 06:44:20 ls -1
+   86  2024-09-27 06:44:20 history
+   87  2024-09-27 06:44:20 ls
+   88  2024-09-27 06:44:20 cd ..
+   89  2024-09-27 06:44:20 ls
+   90  2024-09-27 06:44:20 cd ec2-user
+   91  2024-09-27 06:44:20 exit
+   92  2024-09-27 06:44:20 sudo -i
+   93  2024-09-27 06:44:20 ls
+   94  2024-09-27 06:44:20 sudo -i
+   95  2024-09-27 06:44:20 env
+   96  2024-09-27 06:44:20 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+   97  2024-09-27 06:44:20 export ORACLE_SID=XE
+   98  2024-09-27 06:44:20 export PATH=$PATH:$ORACLE_HOME/bin
+   99  2024-09-27 06:44:20 sudo vi $ORACLE_HOME/cv/admin/cvu_config
+  100  2024-09-27 06:44:20 sudo /etc/init.d/oracle-xe-21c configure
+  101  2024-09-27 06:44:20 sudo service oracle-xe-21c start
+  102  2024-09-27 06:44:20 sudo lsnrctl status
+  103  2024-09-27 06:44:20 sqlplus
+  104  2024-09-27 06:44:20 lsnrctl start
+  105  2024-09-27 06:44:20 netstat -ltnp
+  106  2024-09-27 06:44:20 exit
+  107  2024-09-27 06:44:20 sqlplus
+  108  2024-09-27 06:44:20 ls
+  109  2024-09-27 06:44:20 source ~/.bash_profile
+  110  2024-09-27 06:44:20 ls
+  111  2024-09-27 06:44:20 ls -a
+  112  2024-09-27 06:44:20 vi .bash_profile 
+  113  2024-09-27 06:44:20 source ~/.bash_profile
+  114  2024-09-27 06:44:20 sqlplus
+  115  2024-09-27 06:44:20 sudo fallocate -l 2G /swapfile
+  116  2024-09-27 06:44:20 sudo swapon --show
+  117  2024-09-27 06:44:20 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+  118  2024-09-27 06:44:20 sudo swapon --show
+  119  2024-09-27 06:44:20 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+  120  2024-09-27 06:44:20 sudo fallocate -l 2G /swapfile
+  121  2024-09-27 06:44:20 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+  122  2024-09-27 06:44:20 sudo service oracle-xe-21c start
+  123  2024-09-27 06:44:20 sudo lsnrctl status
+  124  2024-09-27 06:44:20 lsnrctl status
+  125  2024-09-27 06:44:20 sqlplus
+  126  2024-09-27 06:44:20 lsnrctl start
+  127  2024-09-27 06:44:20 netstat -ltnp
+  128  2024-09-27 06:44:20 exit
+  129  2024-09-27 06:44:20 ls
+  130  2024-09-27 06:44:20 cd /opt
+  131  2024-09-27 06:44:20 ls
+  132  2024-09-27 06:44:20 cd oracle
+  133  2024-09-27 06:44:20 ls
+  134  2024-09-27 06:44:20 cd /opt/oracle/product/21c/dbhomeXE/bin
+  135  2024-09-27 06:44:20 sudo bash
+  136  2024-09-27 06:44:20 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+  137  2024-09-27 06:44:20  export ORACLE_SID=XE
+  138  2024-09-27 06:44:20  export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin
+  139  2024-09-27 06:44:20 cd /opt/oracle/product/21c/dbhomeXE/bin
+  140  2024-09-27 06:44:20 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+  141  2024-09-27 06:44:20  export ORACLE_SID=XE
+  142  2024-09-27 06:44:20 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+  143  2024-09-27 06:44:20  export ORACLE_SID=XE
+  144  2024-09-27 06:44:20  export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin
+  145  2024-09-27 06:44:20 imp classicmodels/classicmodels FILE=/home/dheeraj/classicmodels.dmp log=/home/dheeraj/import.log FULL=Y
+  146  2024-09-27 06:44:20 cd .
+  147  2024-09-27 06:44:20 exit
+  148  2024-09-27 06:44:20 sqlplus
+  149  2024-09-27 06:44:20 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+  150  2024-09-27 06:44:20  export ORACLE_SID=XE
+  151  2024-09-27 06:44:20 export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin
+  152  2024-09-27 06:44:20 exit
+  153  2024-09-27 06:44:20 export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+  154  2024-09-27 06:44:20  export ORACLE_SID=XE
+  155  2024-09-27 06:44:20  export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin
+  156  2024-09-27 06:44:20 export ORACLE_SID=XE
+  157  2024-09-27 06:44:20 export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin
+  158  2024-09-27 06:44:20 cd /opt/oracle/product/21c/dbhomeXE/bin
+  159  2024-09-27 06:44:20 sudo bash
+  160  2024-09-27 06:44:20 # Load history from the history file manually
+  161  2024-09-27 06:44:20 history -a
+  162  2024-09-27 06:44:20 # Append the latest command history to a file (e.g., history_log.txt)
+  163  2024-09-27 06:44:20 history >> history_log.txt
